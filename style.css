@@ -1,0 +1,56 @@
+#text {
+    color:green;
+    font-size: medium;
+    font-family:monospace;
+    font-weight: bold;
+    margin: 10px;
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+  border-left:1px solid blue;
+    padding:10px;
+   display: none;
+}
+/* when styling with class we need to give dot before classname */
+
+
+/* body {
+
+   color:aquamarine;
+   background-color: black;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmj8SbIkf15HKJQ47D2pFPHf_47u3DGLRNhw&s');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  opacity: 5;
+
+}
+ */
+/* when styling with id we have to use # before giving id name */
+
+  
+  /* Adjustments might be needed based on the container's size and the desired look */
+  
+
+  /* flex grid */
+  
+ .container{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: space-between;
+   align-items: center;
+  
+   height:700px;
+   justify-items: center;
+    border: 1px solid;
+ }
+ .box{
+    width:100px;
+    background-color: red;
+    height: 100px;
+    border: 1px solid;
+    margin:10px;
+   
+  
+ }
